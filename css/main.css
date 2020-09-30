@@ -1,0 +1,190 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+#code{
+    font-family: 'Inconsolata', monospace !important;
+    color: white;
+    font-size: 40px;
+}
+
+#coding{
+    background-color: #011C37 !important;
+    color: white;
+    font-family: 'Inconsolata', monospace !important;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#artist{
+    color: white;
+    font-size: 40px;
+}
+
+#artistic{
+    background-color: #2f3c4c !important;
+    color: white;
+    font-family: 'Raleway', sans-serif !important;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#artistic a{
+    color: white;
+    font-size: 42px;
+}
+
+#coding .jumbotron{
+    background-color: transparent !important;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-radius: 20px !important;
+    background-color:#00bcf01f !important;
+}
+
+#artistic .jumbotron{
+    background-color: transparent !important;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-radius: 20px !important;
+    background-color:#1f2833af !important;
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 1100px;
+    border: 3px solid white;
+}
+
+.instagram{
+    height: 200px;
+    width: 200px;
+    border-radius: 1100px;
+    border: 3px solid goldenrod;
+}
+
+
+.links{
+    font-size: 42px;
+    color: white;
+}
+
+a:hover{
+    color: rgb(182, 182, 182) !important;
+}
+
+.htb{
+    height: 50px;
+    width: auto;
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+a {
+    text-decoration: none !important;
+    position: relative !important;
+    cursor: pointer !important;
+}
+
+.grow::after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    border-bottom: 1px solid tomato;
+    transition: 0.4s;
+}
+
+.grow:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 360px){
+    h1{
+        font-size: 1.5rem !important;
+    }
+    .links{
+        font-size: 2rem;
+    }
+    .profile{
+        width: 150px;
+        height: 150px;
+    }
+    .instagram{
+        width: 150px;
+        height: 150px;
+    }
+    .htb{
+        height: 40px;
+    }
+    a{
+        font-size: 30px;
+    }
+    .jumbotron{
+        width: 100%;
+    }
+    .container{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 600px){
+    h1{
+        font-size: 2rem !important;
+    }
+    #artistic h1{
+        font-size: 2.3rem !important;
+    }
+    .profile{
+        width: 150px;
+        height: 150px;
+    }
+    .instagram{
+        width: 150px;
+        height: 150px;
+    }
+    .htb{
+        height: 40px;
+    }
+    a{
+        font-size: 30px;
+    }
+    .jumbotron{
+        width: 100%;
+    }
+    .container{
+        width: 100% !important;
+    }
+    .links{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px){
+    h1{
+        font-size: 3.4rem !important;
+    }
+}
